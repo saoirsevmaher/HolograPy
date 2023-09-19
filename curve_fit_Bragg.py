@@ -65,9 +65,9 @@ def main():
     absorption_film = st.number_input('Enter film absorption:')
 
     # RIM
-    absorption_modulation_guess = st.number_input('Enter an initial estimate of the refractive index modulation:')
+    absorption_modulation_guess = st.number_input('Enter an initial estimate of the absorption index modulation:')
 
-    absorption_mod_upper_bound = st.number_input('Define upper limit for the refractive index modulation:')
+    absorption_mod_upper_bound = st.number_input('Define upper limit for the absorption index modulation:')
 
     # Thickness estimate
     thickness = st.number_input('Enter an initial estimate of the grating thickness (um):')
